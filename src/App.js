@@ -35,7 +35,6 @@ function App() {
     const removeUser = (users=[], user) => {
         return function(){
             const newUsers = users.filter(u => u.name !== user.name);
-            // console.log(e);
             setUsers(newUsers);
         }
         
